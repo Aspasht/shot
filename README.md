@@ -1,6 +1,11 @@
 # Shot
 Automate the process of capturing screenshots from a list of URLs.
 
+# Dependencies
+		// Install chromedp dependencies first using these commands below or you can download manually.
+		$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+		$ sudo dpkg -i google-chrome-stable_current_amd64.deb; sudo apt-get -fy install
+
 
 Usage Example
 		
@@ -20,6 +25,10 @@ Usage Example
 		├── aHR0cDovL3d3dy5leGFtcGxlLmNvbS8.jpg
 		.....
 		
+		Or Compile package and access using "shot" 
+		$ go install
+		$ shot urls.txt
+
 
 	### To view the result images you can simply use sublime text or any  other image viewer applications.
 		$ subl . 
