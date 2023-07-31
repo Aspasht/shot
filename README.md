@@ -2,7 +2,8 @@
 Automate the process of capturing screenshots from a list of URLs.
 
 
-Usage Example:
+Usage Example
+		
 		$ go run main.go urls.txt
 
 		2023/07/31 10:54:46 Screenshot saved for URL: http://www.example.com/
