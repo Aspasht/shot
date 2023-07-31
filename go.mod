@@ -1,4 +1,4 @@
-module shooter
+module shot
 
 go 1.20
 
